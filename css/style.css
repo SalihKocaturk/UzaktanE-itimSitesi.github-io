@@ -379,7 +379,15 @@ a:hover,a:focus {
     left: -35px; /* Görseli sola kaydırır */
     box-shadow: 0px 0 5px 0 rgba(0, 0, 0, 0.2); /* Gölge efekti */
 }
+@media (max-width: 767px) {
+    .mobile-btn {
+        display: block;  /* Show mobile button */
+    }
 
+    .desktop-btn {
+        display: none;   /* Hide desktop button on mobile */
+    }
+}
 /*------------------------------------------------------------------ 
 HEADER 
 -------------------------------------------------------------------*/
