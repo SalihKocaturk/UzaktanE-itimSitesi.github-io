@@ -2245,13 +2245,7 @@ p {
 	padding-top: 75px;
 	padding-bottom: 75px;
 }
-@media (max-width: 767px) {
-	.layout_padding {
-        padding-top: 40px;  /* Reduce top padding */
-        padding-bottom: 30px;  /* Reduce bottom padding */
-    }
 
-}
 .heading_main h2 {
     font-size: 45px;
     letter-spacing: -0.5px;
@@ -2377,44 +2371,7 @@ h3.small_heading {
     font-size: 35px;
 	right: -120px;
 }
-/* Mobile view styles */
-@media (max-width: 767px) {
-    .mobile-btn {
-        display: block;  /* Show mobile button */
-    }
 
-    .desktop-btn {
-        display: none;   /* Hide desktop button on mobile */
-    }
-}
-
-/* Desktop view styles */
-@media (min-width: 768px) {
-    .mobile-btn {
-        display: none;   /* Hide mobile button on desktop */
-    }
-
-    .desktop-btn {
-        display: block;  /* Show desktop button */
-    }
-}
-@media (max-width: 767px) {
-    .carousel a.carousel-control-prev,
-    .carousel a.carousel-control-next {
-        width: 50px; /* Smaller width */
-        height: 50px; /* Smaller height */
-        font-size: 25px; /* Smaller font size */
-        top: 35%; /* Adjust vertical position */
-    }
-
-    .carousel a.carousel-control-prev {
-        left: -60px; /* Adjust horizontal position */
-    }
-
-    .carousel a.carousel-control-next {
-        right: -60px; /* Adjust horizontal position */
-    }
-}
 #demo {
 	margin-bottom: 20px;
 }
@@ -2627,38 +2584,6 @@ ul.social_icon li {
    margin-bottom: 20px;
    text-align: center;
 }
-@media (max-width: 767px) {
-	.container {
-	   padding-left: 20px;
-	   padding-right: 20px;
-	}
- 
-	#announcementCarousel .carousel-inner .carousel-item {
-	   padding-left: 10px;
-	   padding-right: 10px;
-	}
- 
-	.announcement_card {
-	   width: 60%; /* Set the width to 60% of the screen */
-	   margin: 0 auto; /* Center the card */
-	}
-	
-	.announcement_card h4 {
-	   font-size: 16px; /* Smaller text on mobile */
-	}
-	
-	.announcement_card p {
-	   font-size: 14px; /* Smaller text on mobile */
-	}
- }
- 
- /* Optional: if you want to adjust the text alignment and button styling */
- @media (max-width: 767px) {
-	.announcement_card a.main_bt {
-	   font-size: 12px; /* Smaller button text on mobile */
-	   padding: 10px 15px; /* Adjust button size */
-	}
- }
 .modal {
    display: block;
    position: fixed;
